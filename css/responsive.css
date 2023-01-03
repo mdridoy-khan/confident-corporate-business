@@ -1,0 +1,88 @@
+/* Normal desktop(xl) :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+
+/* Normal desktop(lg) :992px. */
+@media (min-width: 992px) and (max-width: 1199.99px) {
+.sluzby-prot-text span {
+	font-size: 35px;
+	line-height: 2;
+}
+.configoretor-content {
+	margin-top: -35px;
+}
+.footer-title {
+	padding-left: 0px;
+}
+.relaize-area {
+	height: 730px;
+}
+
+}
+
+
+/* Tablet desktop(md) :768px. */
+@media (min-width: 768px) and (max-width: 991.99px) {
+.sluzby-prot-text span {
+	font-size: 30px;
+	line-height: 2;
+}
+#contact-map {
+	height: 500px;
+}
+.relaize-area {
+	height: 730px;
+}
+.reliaze-right-content {
+	padding-left: 0px;
+}
+.footer-title {
+	padding-left: 0;
+}
+
+
+}
+
+
+/* small mobile(xs) :320px. */
+@media (max-width: 767.99px) {
+	.sluzby-prot-text {
+	justify-content: left !important;
+}
+.single-slider {
+	height: 500px;
+}
+.slider-content h1 {
+	font-size: 36px;
+	line-height: 1.2;
+}
+.slider-content {
+	margin-top: 0;
+}
+.relaize-area {
+	height: 1130px;
+}
+.reliaze-right-content {
+	padding-left: 0px;
+}
+.footer-title {
+	padding-left: 0;
+}
+.gellary-single-img {
+	text-align: center;
+}
+}
+/* Large Mobile(sm) :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767.99px) {
+.img-text img {
+	width: inherit;
+}
+.sluzby-prot-content {
+	margin: inherit;
+}
+.relaize-area {
+	height: 870px;
+}
+}
